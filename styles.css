@@ -1,13 +1,21 @@
 /* styles.css */
 
+/* styles.css */
+
 body {
-    background-image: url('background-image.jpg'); /* Replace with your image path */
-    background-size: cover;
-    background-position: center;
+    background-image: url('background-image.png'); /* Replace with your image file path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Do not repeat the background image */
     font-family: 'Roboto', sans-serif; /* Material design font */
     margin: 0;
     padding: 0;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .container {
     display: flex;
